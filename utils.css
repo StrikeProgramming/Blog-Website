@@ -1,0 +1,80 @@
+.btn {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 1rem;
+  padding: 0.5em 2em;
+  border: 2px solid var(--clr-slate600);
+  color: #475569;
+  font-size: var(--size-lg);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  border-color: var(--clr-lightblue);
+  background: var(--clr-lightblue);
+  color: var(--clr-light);
+  transform: translateY(-3px);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.section {
+  margin-top: 4rem;
+}
+
+/*========== MEDIA QUERIES ==========*/
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+
+  .section {
+    margin-top: 2rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
